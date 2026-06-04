@@ -64,7 +64,7 @@ def problema_1():
     print(f"P({n},{r}) = {n}! / ({n}-{r})! = {permutacion}")
     print("="*40)
 
-def problema_2():
+def problema_4():
     
     print("\n--- Problema 2: Sistema de conteo de contraseñas ---")
     
@@ -254,7 +254,7 @@ def main():
             problema_1()
         
         elif opcion == 2:
-            problema_2()
+            problema_4()
         
         if opcion == 0:
             print("\nPrograma terminado. ¡Gracias por usar!")
