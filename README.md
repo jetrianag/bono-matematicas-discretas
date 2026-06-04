@@ -40,6 +40,22 @@ El programa abrirá un menú interactivo en la terminal donde puedes seleccionar
 
 ---
 
+## Estructura del Repositorio
+
+**Nota sobre la organización:**
+
+Ambos problemas están en un único archivo `Problemas_de_conteo.py` porque se implementó una **interfaz de menú en la terminal**. El programa funciona así:
+
+1. Al ejecutar `Problemas_de_conteo.py`, aparece un menú interactivo
+2. El usuario selecciona qué programa usar (1 o 2)
+3. El programa ejecuta la función correspondiente (`problema_1()` o `problema_4()`)
+4. Después de terminar, vuelve al menú
+5. El usuario puede seleccionar otro problema o salir
+
+Esta estructura permite tener ambos programas accesibles desde una única interfaz, sin necesidad de tener archivos separados.
+
+---
+
 ## Explicación Breve de los Problemas Resueltos
 
 ### Problema 1: Permutaciones y K-Permutaciones
@@ -493,3 +509,47 @@ Total de contraseñas posibles: 34012223
 ## Comentarios finales
 
 Ambos programas demuestran la aplicación práctica de conceptos de combinatoria. El Problema 1 muestra cómo las permutaciones calculan arreglos ordenados, mientras que el Problema 4 ilustra cómo aplicar principios de conteo (regla del producto y complementación) en problemas del mundo real como la seguridad de contraseñas.
+
+---
+
+## Nota sobre el Uso de Inteligencia Artificial
+
+Durante el desarrollo de este proyecto, utilicé herramientas de inteligencia artificial (IA) como asistente para acelerar ciertos procesos. Sin embargo, es importante aclarar que:
+
+**¿Cómo se utilizó la IA?**
+
+1. **Generación de Código:** La IA fue utilizada para generar el código base de ambos programas. Sin embargo, esto se hizo bajo instrucciones muy específicas y detalladas que yo proporcioné. Antes de que la IA escribiera cualquier línea, yo había:
+   - Definido la lógica del algoritmo completa
+   - Explicado la estructura del programa paso a paso
+   - Especificado exactamente qué validaciones necesitaba
+   - Indicado cómo debería comportarse ante cada caso
+
+2. **Documentación (README):** El README fue generado con ayuda de IA, pero siguiendo una estructura y contenido que yo definí previamente. La IA ayudó a organizar y redactar la información de manera clara y profesional.
+
+**¿Por qué se usó IA?**
+
+El objetivo era **optimizar el tiempo** sin sacrificar la calidad ni el aprendizaje:
+- Escribir manualmente miles de líneas de código y documentación es repetitivo y consume tiempo innecesario
+- La IA permitió enfocarse en lo importante: entender los conceptos matemáticos y la lógica de programación
+
+**¿Qué NO se hizo con IA?**
+
+- **No** se dejó que la IA definiera la lógica por sí sola
+- **No** se copió y pegó código sin entenderlo
+- **No** se usó IA para "hacer la tarea completa"
+- **No** se evitó el aprendizaje de los conceptos principales
+
+**Responsabilidad Académica**
+
+Yo puedo explicar completamente:
+- Cómo funciona cada línea de código
+- Por qué se eligieron esas estructuras de datos
+- La lógica matemática detrás de cada algoritmo
+- Cómo validar entradas y manejar errores
+- La complejidad temporal y espacial de cada solución
+
+**Transparencia - Archivo de Prompts**
+
+Para total transparencia, todos los prompts (instrucciones) que se proporcionaron a la IA están documentados en el archivo `PROMPTS.md` incluido en este repositorio. El profesor puede revisar exactamente qué instrucciones se dieron y cómo fueron específicas y detalladas. Esto demuestra que la IA fue utilizada como herramienta bajo dirección consciente, no como medio para evadir el trabajo académico.
+
+En conclusión, la IA fue una herramienta de **productividad**, no de evasión académica. El entendimiento de los conceptos y la capacidad de explicar el trabajo son 100% míos.
